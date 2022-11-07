@@ -46,7 +46,7 @@ section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/img.jpg) no-repeat;
     background-size: cover;
-    background-position: bottom center;
+    background-position: left bottom;
     height: 200px;
 }
 
@@ -65,16 +65,36 @@ div#formulario > p {
 }
 
 form > div.campo {
+    
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 1.9em;
+    width: 40px;
+    pad: 5px;
+}
+
+div.campo > input {
+    background-color: #4dcfcb;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    transform: translateY(-5px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit] {
@@ -102,7 +122,7 @@ form > a.botao {
     padding-top: 5px;
     margin-top: 5px;
     background-color: white;
-    color: #2d6462;
+    color: #49a09d;
     border: 1px solid #49a09d;
     border-radius: 7px;
     text-decoration: none;
