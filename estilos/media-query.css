@@ -21,6 +21,10 @@
         float: right;
         width: 70%;
     }
+
+    form > div.campo {
+        height: 37px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -58,5 +62,9 @@
     div#formulario > p {
         font-size: 1em;
         margin: 20px 0;
+    }
+
+    form > div.campo {
+        height: 37px;
     }
 }
