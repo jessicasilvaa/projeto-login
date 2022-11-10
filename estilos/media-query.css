@@ -1,70 +1,56 @@
-@charset "UTF-8";
+@charset "UTF8";
 
-@media screen and (min-width: 780px) and (max-width: 992px) {
-
+@media  screen and (min-width: 762px) and (max-width: 992px) { 
     body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to bottom, #5f52f0, #6DA4E8);
     }
 
-    section#login {
+    #login {
         width: 80vw;
-        height: 280px;
+        height: 305px;
+        
     }
 
-    section#login > div#imagem {
+    #login > #imagem {
         float: left;
         width: 30%;
         height: 100%;
     }
 
-    section#login > div#formulario{
+    #login > #formulario {
         float: right;
         width: 70%;
     }
 
-    form > div.campo {
-        height: 37px;
-    }
+    #formulario > p {
+        margin: 20px 0px;
+    } 
 }
 
 @media screen and (min-width: 992px) {
-
     body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to bottom, #5f52f0, #6DA4E8);
     }
 
-
-    section#login {
+    #login {
         width: 950px;
-        height: 350px;
+        height: 340px;
     }
 
-    section#login > div#imagem {
+    #login > #imagem {
         float: right;
         width: 50%;
         height: 100%;
     }
 
-    section#login > div#formulario{
+    #login > #formulario {
         float: left;
         width: 50%;
-    }
-    
-    div#formulario {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-    div#formulario > h1 {
-        font-size: 2em;
+        height: 100%;
     }
 
-    div#formulario > p {
-        font-size: 1em;
-        margin: 20px 0;
-    }
-
-    form > div.campo {
-        height: 37px;
-    }
+    #formulario > p {
+        font-size: 1.4em;
+        margin: 20px 0px;
+    }   
 }
